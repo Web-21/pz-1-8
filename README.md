@@ -9,7 +9,7 @@
 * Use scss variables
 * Add sourcemap for scss
 
-![img](https://user-images.githubusercontent.com/10829855/182413759-63dcac8d-3ea7-4f53-99f3-90111823ee00.png)
+![Screenshot 2024-09-16 at 11 02 00](https://github.com/user-attachments/assets/edaae501-a014-4c95-b521-b13b9c67da28)
 
 # Directory Structure
 Follow this pattern for organization of developed components.
