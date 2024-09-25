@@ -1,0 +1,20 @@
+@import "reset.scss";
+@import "variables.scss";
+@import "header.scss";
+@import "carrousel.scss";
+@import "container.scss";
+@import "main.scss";
+@import "footer.scss";
+@import "fonts.scss";
+
+body,html,footer{
+    margin: 0;
+    padding: 0;
+    font-family: 'Megogo', Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+dd{
+    margin-left: 0px;
+}

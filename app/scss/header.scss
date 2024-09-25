@@ -1,0 +1,88 @@
+.header{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-nav{
+    width: 700px;
+    margin-left: 100px;
+}
+
+.header-nav > ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-nav > ul >li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.block-move{
+    width: fit-content;
+    height: 40px;
+}
+.block-move:hover{
+    border-radius: 7px;
+    background-color: #fff;
+    transition: color 0.5s ease;
+}
+.block-move:hover a{
+    color: $popular-text-color;
+    transition: color 0.3s ease;
+}
+.block-move:hover .points{
+    fill: $popular-text-color;
+    transition: color 0.3s ease;
+}
+
+.header-link{
+    color: $header-text-color;
+    line-height: 1.25;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.header-megogo{
+    font-weight: 600;
+    letter-spacing: 5px;
+    text-decoration: none;
+    color: $header-text-color;
+}
+
+.header-side{
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+    align-items: center;
+    margin-right: 100px;
+}
+.headre-side-button{
+    width: fit-content;
+    height: fit-content;
+    background-color: #000;
+    color: $header-text-color;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    padding: 5px 15px;
+}
+.side-text:hover{
+    color: $header-hover-button-color;
+}
+.headre-side-button:hover{
+    border-color: $header-hover-button-color;
+    color: $header-hover-button-color;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.header-side-loupe > a{
+    color: $header-text-color;
+    font-size: 20px;
+}
+.header-side-text > a{
+    color: $header-text-color;
+}
