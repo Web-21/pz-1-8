@@ -1,0 +1,739 @@
+.image-block {
+    background-image: url(https://s2.vcdn.biz/static/f/8320475081/image.jpg/pt/r0x0x4);
+    width: 100%;
+    height: 520px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-stroke, .right-stroke {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+    height: 110px;
+    width: 70px;
+}
+.left-stroke {
+    margin-left: 60px;
+}
+.right-stroke {
+    margin-right: 60px;
+}
+.left-stroke:hover, .right-stroke:hover {
+    background-color: $header-color-black;
+    opacity: 0.8;
+}
+.view {
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #f5eded;
+    width: 80%;
+    height: 147px;
+    display: flex;
+    justify-content: space-around;
+}
+.collections {
+    margin-top: 20px;
+    height: 107px;
+    width: 234px;
+    border-radius: 10px;
+    background-size: cover;
+}
+.collections:hover .black-block {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.sales, .abonamente, .paramount, .warner, .disney {
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.sales {
+    background-image: url(https://s4.vcdn.biz/static/f/8258557711/image.jpg/pt/r220x100x4);
+}
+.abonamente {
+    background-image: url(https://s2.vcdn.biz/static/f/7860392561/image.jpg/pt/r220x100x4);
+}
+.paramount {
+    background-image: url(https://s7.vcdn.biz/static/f/7223018821/image.jpg/pt/r220x100x4);
+}
+.warner {
+    background-image: url(https://s8.vcdn.biz/static/f/7223023961/image.jpg/pt/r220x100x4);
+}
+.disney {
+    background-image: url(https://s3.vcdn.biz/static/f/7223026611/image.jpg/pt/r220x100x4);
+}
+.empty-space {
+    background-color: $bg-color-white;
+    height: 36px;
+    width: 100%;
+}
+.television {
+    width: 90%;
+    height: 580px;
+    background-color: $bg-color-white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.block-tb {
+    width: 100%;
+    background-color: $bg-color-white;
+    height: 50px;
+}
+.tb {
+    font-size: 35px;
+    font-family: 'Megogo', Helvetica, sans-serif;
+    font-weight: normal;
+    letter-spacing: 2px;
+    color: #222222;
+    text-decoration: none;
+    margin-left: 130px;
+}
+.tb:hover {
+    color: $header-text-color;
+    transition: all 0.3s ease;
+}
+.channels {
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+    background-color: $header-color-black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.channels:hover .channels-black-block {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.romania {
+    background-image: url(https://s8.vcdn.biz/static/f/6888764321/image.jpg/pt/r193x272x4);
+}
+.euro-news {
+    background-image: url(https://s8.vcdn.biz/static/f/6886952981/image.jpg/pt/r193x272x4);
+}
+.tv-thousand {
+    background-image: url(https://s5.vcdn.biz/static/f/3748414811/image.jpg/pt/r193x272x4);
+}
+.hbo {
+    background-image: url(https://s3.vcdn.biz/static/f/7366629801/image.jpg/pt/r193x272x4);
+}
+.party-mix {
+    background-image: url(https://s8.vcdn.biz/static/f/6891591761/image.jpg/pt/r193x272x4);
+}
+.eurosport {
+    background-image: url(https://s1.vcdn.biz/static/f/7400993941/image.jpg/pt/r193x272x4);
+}
+.realitatea {
+    background-image: url(https://s4.vcdn.biz/static/f/7253197051/image.jpg/pt/r193x272x4);
+}
+.sphere {
+    background-image: url(https://s6.vcdn.biz/static/f/7192398381/image.jpg/pt/r193x272x4);
+}
+.kiss-tv {
+    background-image: url(https://s2.vcdn.biz/static/f/6887542331/image.jpg/pt/r193x272x4);
+}
+.epic-drama {
+    background-image: url(https://s4.vcdn.biz/static/f/7222033651/image.jpg/pt/r193x272x4);
+}
+.warner-tv {
+    background-image: url(https://s6.vcdn.biz/static/f/7366571511/image.jpg/pt/r193x272x4);
+}
+.bolly-wood {
+    background-image: url(https://s8.vcdn.biz/static/f/8320739651/image.jpg/pt/r193x272x4);
+}
+.text-of-week {
+    font-size: 22px;
+    font-family: 'Megogo', Helvetica, sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #444343;
+    text-decoration: none;
+    margin-left: 130px;
+}
+.top-10-of-week {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.back-next {
+    display: flex;
+    border-radius: 5px;
+    border: solid 1px #d9d7d7;
+    width: 50px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+.next {
+    border-left: solid 0.5px #d9d7d7;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.back {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: solid 0.5px #d9d7d7;
+    height: 100%;
+}
+.next:hover .next-svg {
+    fill: $header-text-color;
+}
+.back-svg {
+    margin-left: 6px;
+    fill: #d9d7d7;
+}
+.top-10-cinemas {
+    height: 350px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+}
+.cinemas {
+    height: 350px;
+    width: 230px;
+    background-color: $header-color-black;
+    border-radius: 10px;
+    cursor: pointer;
+    background-size: cover;
+}
+.cinemas:hover .cinemas-black-block {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: all 0.7s ease;
+}
+.tornado {
+    background-image: url(https://s8.vcdn.biz/static/f/8376268381/720x1080-23803386-ua.jpg/pt/r300x0x4);
+}
+.monkeys {
+    background-image: url(https://s1.vcdn.biz/static/f/8376275061/720x1080-22961766-ua.jpg/pt/r300x0x4);
+}
+.duna {
+    background-image: url(https://s7.vcdn.biz/static/f/8376291231/720x1080-22027436-ua.jpg/pt/r300x0x4);
+}
+.beetlejuice {
+    background-image: url(https://s1.vcdn.biz/static/f/8376261291/720x1080-3734571-ua.jpg/pt/r300x0x4);
+}
+.friends {
+    background-image: url(https://s9.vcdn.biz/static/f/8376272261/720x1080-23983007-ua.jpg/pt/r300x0x4);
+}
+.watch-channels {
+    height: 420px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+.cinemas:hover .watch-black-block {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: all 0.7s ease;
+}
+.watch-block {
+    margin: 1.5%;
+    height: 30px;
+}
+.watch-description {
+    font-size: 25px;
+    font-family: 'Megogo', Helvetica, sans-serif;
+    font-weight: normal;
+    color: #434343;
+    text-decoration: none;
+    margin-left: 120px;
+}
+.link-tv {
+    background-image: url(https://s4.vcdn.biz/static/f/7756730481/Slice1.jpg/pt/r300x0x4);
+}
+.qtv {
+    background-image: url(https://s1.vcdn.biz/static/f/7756732791/Slice2.jpg/pt/r300x0x4);
+}
+.disco-mix {
+    background-image: url(https://s2.vcdn.biz/static/f/7756735231/Slice3.jpg/pt/r300x0x4);
+}
+.exploresa {
+    background-image: url(https://s8.vcdn.biz/static/f/7757273581/Slice4.jpg/pt/r300x0x4);
+}
+.continue-exploresa {
+    background-image: url(https://s3.vcdn.biz/static/f/7757286401/Slice5.jpg/pt/r300x0x4);
+}
+.magical-baker {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-bottom: 30px;
+    // margin-top: 150px;
+}
+.magical-description {
+    font-size: 25px;
+    font-family: 'Megogo', Helvetica, sans-serif;
+    font-weight: normal;
+    color: #434343;
+    text-decoration: none;
+    margin-left: 159px;
+    cursor: pointer;
+}
+.magical-description:hover {
+    color: $header-text-color;
+    transition: all 0.3s ease;
+}
+.episodes-variants {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    margin: auto;
+    margin-bottom: 20px;
+    height: 400px;
+}
+.helper{
+    height: 250px;
+}
+.in-motion {
+    background-color: $bg-color-white;
+    height: 20px;
+    width: 60px;
+    border-radius: 2px;
+    font-family: 'Megogo', Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    opacity: 0.9;
+    margin-bottom: 120px;
+}
+.episodes {
+    margin-top: 20px;
+    height: 157px;
+    width: 283px;
+    border-radius: 10px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.episodes-block {
+    height: 300px;
+}
+.episodes:hover .episodes-black-block {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: all 0.7s ease;
+    flex-direction: column;
+    display: flex;
+}
+.first-seria {
+    background-image: url(https://s8.vcdn.biz/static/f/8389280951/image.jpg/pt/r300x0x4);
+}
+.second-seria {
+    background-image: url(https://s4.vcdn.biz/static/f/8389275691/image.jpg/pt/r300x0x4);
+}
+.third-seria {
+    background-image: url(https://s6.vcdn.biz/static/f/8389271751/image.jpg/pt/r300x0x4);
+}
+.fourth-seria {
+    background-image: url(https://s3.vcdn.biz/static/f/8389267941/image.jpg/pt/r300x0x4);
+}
+.seria-number {
+    font-size: 15px;
+    font-family: 'Megogo', Helvetica, sans-serif;
+    font-weight: 550;
+    color: #434343;
+    text-decoration: none;
+    cursor: pointer;
+    width: fit-content;
+}
+.seria-date {
+        font-size: 11px;
+        font-family: 'Megogo', Helvetica, sans-serif;
+        font-weight: 600;
+        color: #bdb9b9;
+        text-decoration: none;
+        cursor: pointer;
+}
+.number {
+    width: 100px;
+    height: 50px;
+}
+.prom-tb {
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+.promotion {
+    font-size: 14px;
+    width: 50px;
+    height: 20px;
+    background-color: $header-text-color;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Megogo', Helvetica, sans-serif;
+    border-radius: 5px;
+    align-items: center;
+}
+.optim-tb {
+    font-size: 14px;
+    font-weight: 600;
+    color: $header-text-color;
+    font-family: 'Megogo', Helvetica, sans-serif;
+}
+.first-drama {
+    background-image: url(https://s9.vcdn.biz/static/f/8350471971/image.jpg/pt/r300x0x4);
+}
+.second-drama {
+    background-image: url(https://s7.vcdn.biz/static/f/8350451971/image.jpg/pt/r300x0x4);
+}
+.third-drama {
+    background-image: url(https://s9.vcdn.biz/static/f/8350447131/image.jpg/pt/r300x0x4);
+}
+.fourth-drama {
+    background-image: url(https://s7.vcdn.biz/static/f/8350442611/image.jpg/pt/r300x0x4);
+}
+.number-serial {
+    width: 160px;
+    height: 50px;
+}
+.arrow, .watch {
+    opacity: 0.0;
+}
+.episodes:hover .arrow {
+    fill: #f5eded;
+    opacity: 1;
+    margin-left: 130px;
+    margin-top: 60px;
+}
+.episodes:hover .watch {
+    opacity: 1;
+    color: #f5eded;
+    margin-left: 110px;
+    font-weight: 550;
+    margin-top: 2px;
+}
+.comisar {
+    background-image: url(https://s1.vcdn.biz/static/f/5643842401/image.jpg/pt/r193x272x4);
+}
+.kuzovok {
+    background-image: url(https://s8.vcdn.biz/static/f/7674333191/image.jpg/pt/r193x272x4);
+}
+.plays {
+    background-image: url(https://s7.vcdn.biz/static/f/5215043761/image.jpg/pt/r193x272x4);
+}
+.patrol {
+    background-image: url(https://s6.vcdn.biz/static/f/4006436091/image.jpg/pt/r193x272x4);
+}
+.ondoll {
+    background-image: url(https://s3.vcdn.biz/static/f/6962980971/image.jpg/pt/r193x272x4);
+}
+.inside-out {
+    background-image: url(https://s4.vcdn.biz/static/f/8150152891/image.jpg/pt/r193x272x4);
+}
+.watchers {
+    margin-top: 20px;
+    width: 197px;
+    height: 283px;
+    border-radius: 10px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.watchers:hover .watch-black-block {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: all 0.7s ease;
+    flex-direction: column;
+    display: flex;
+}
+.watchers:hover .arrow {
+    fill: #f5eded;
+    opacity: 1;
+    margin-left: 90px;
+    margin-top: 120px;
+}
+.watchers:hover .watch {
+    opacity: 1;
+    color: #f5eded;
+    margin-left: 70px;
+    font-weight: 550;
+    margin-top: 2px;
+}
+.block-description {
+    width: 180px;
+    height: 40px;
+    display:flex;
+    flex-direction: column;
+}
+.serial-calling {
+    font-size: 15px;
+    font-family: 'Megogo', Helvetica, sans-serif;
+    font-weight: 550;
+    color: #353434;
+    text-decoration: none;
+    cursor: pointer;
+    width: fit-content;
+}
+.serial-calling:hover {
+    color: $header-text-color;
+}
+.genre, .free {
+    font-size: 15px;
+    font-family: 'Megogo', Helvetica, sans-serif;
+    font-weight: 550;
+    color: #8f8f8f;
+    text-decoration: none;
+    width: fit-content;
+}
+.buy {
+    font-size: 15px;
+    font-family: 'Megogo', Helvetica, sans-serif;
+    font-weight: 550;
+    color: #12984a;
+    text-decoration: none;
+    width: fit-content;
+}
+.showshenk {
+    background-image: url(https://s6.vcdn.biz/static/f/1422263841/image.jpg/pt/r193x272x4);
+}
+.ring-king {
+    background-image: url(https://s2.vcdn.biz/static/f/2897010551/image.jpg/pt/r193x272x4);
+}
+.dark-knight {
+    background-image: url(https://s5.vcdn.biz/static/f/1399542431/image.jpg/pt/r193x272x4);
+}
+.ring-saver {
+    background-image: url(https://s9.vcdn.biz/static/f/2897006211/image.jpg/pt/r193x272x4);
+}
+.minunata {
+    background-image: url(https://s9.vcdn.biz/static/f/7356319101/image.jpg/pt/r193x272x4);
+}
+.future {
+    background-image: url(https://s7.vcdn.biz/static/f/6973713691/image.jpg/pt/r193x272x4);
+}
+.choose-genre {
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 80%;
+    height: 287px;
+    display: flex;
+    justify-content: space-around;
+}
+.filter {
+    background-image: url(https://s7.vcdn.biz/static/f/6679319541/1320x894_ua.jpg/pt/r300x0x4);
+}
+.find {
+    background-image: url(https://s6.vcdn.biz/static/f/7740558851/1320x894_search-ua.jpg/pt/r300x0x4);
+}
+.criminal {
+    background-image: url(https://s2.vcdn.biz/static/f/6675725881/1320x894_crime_ua.jpg/pt/r300x0x4);
+}
+.sad-films {
+    background-image: url(https://s5.vcdn.biz/static/f/6675720781/1320x894_melodramas_ua.jpg/pt/r300x0x4);
+}
+.chooser {
+    margin-top: 20px;
+    height: 198px;
+    width: 300px;
+    border-radius: 10px;
+    background-size: cover;
+}
+.chooser:hover .black-block-chose {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.prepayment-block {
+    height: 350px;
+    width: 80%;
+    border-top: 1px solid rgb(222, 219, 219);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.prepayment-text {
+    font-size: 40px;
+    font-family: 'Megogo', Helvetica, sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #222222;
+    text-decoration: none;
+    margin-left: 130px;
+    margin-top: 70px;
+}
+.channels-text {
+    font-size: 20px;
+    font-family: 'Megogo', Helvetica, sans-serif;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: $header-color-black;
+    text-decoration: none;
+    margin-left: 130px;
+    margin-top: 10px;
+}
+.try {
+    height: 50px;
+    width: 250px;
+    background-color: $header-text-color;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.try-text {
+    color: $bg-color-white;
+    align-items: center;
+    font-family: 'Megogo', Helvetica, sans-serif;
+    font-weight: 550;
+    margin-left: 30px;
+}
+.big-sale {
+    display: flex;
+    margin-top: 10px;
+}
+.sale {
+    color: #d52b19;
+    font-family: 'Megogo', Helvetica, sans-serif;
+    font-weight: 550;
+    margin-right: 4px;
+}
+.sale-text {
+    font-size: 15px;
+    font-family: 'Megogo', Helvetica, sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: $header-color-black;
+    text-decoration: none;
+}
+.prefooter {
+    width: 100%;
+    background-color: #eae5e5;
+    height: 270px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 40px;
+}
+.activate {
+    list-style: none;
+    font-family: 'Megogo', Helvetica, sans-serif;
+    color: #bdb9b9;
+    font-weight: 500;
+    font-size: 17px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.users-partners {
+    list-style: none;
+    font-family: 'Megogo', Helvetica, sans-serif;
+    color: #bdb9b9;
+    font-weight: 500;
+    font-size: 17px;
+    text-decoration: none;
+}
+.users-text {
+    font-family: 'Megogo', Helvetica, sans-serif;
+    color: #545454;
+    font-weight: 500;
+    font-size: 17px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.nav-class {
+    width: 20%;
+}
+.supo {
+    padding-left: 200px;
+}
+.smart-tv, .app-store, .google-play, .app-galery {
+    width: 120px;
+    height: 40px;
+    background-size: cover;
+    border-radius: 5px;
+}
+.smart-tv {
+    background-image: url(https://s6.vcdn.biz/static/39165961/applications-smart-tv.png/pt/r0x0x4);
+}
+.app-store {
+     background-image: url(https://s7.vcdn.biz/static/39165971/applications-app-store.png/pt/r0x0x4);
+}
+.google-play {
+    background-image: url(https://s9.vcdn.biz/static/39165991/applications-google-play.png/pt/r0x0x4);
+}
+.app-galery {
+    background-image: url(https://s8.vcdn.biz/static/f/2242444741/image.jpg/pt/r0x0x4);
+}
+.some-apps {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+.smart-tv:hover, .app-store:hover, .google-play:hover, .app-galery:hover {
+    opacity: 0.7;
+    transition: all 0.3s ease;
+}
+.apps-choose {
+    display: flex;
+    cursor: pointer;
+}
+.insta {
+    margin-top: 2px;
+}
+.insta:hover {
+    fill:#820746;
+    transition: all 0.3s ease;
+}
+.facebook:hover {
+    fill: #3958c1;
+    transition: all 0.3s ease;
+}
+.activate:hover, .support:hover {
+    color: $header-text-color;
+    transition: all 0.3s ease;
+}
+.support {
+    font-size: 30px;
+    cursor: pointer;
+}
+.questions {
+    display: flex;
+    justify-content: space-between;
+   width: 276px;
+}
+.on-tables {
+    padding-left: 15px;
+}
+.apps {
+    margin-top: 20px;
+}
+.try:hover {
+    background-color: #bc2109;
+}
